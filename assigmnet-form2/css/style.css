@@ -1,0 +1,11 @@
+.login-form {
+  background: linear-gradient(
+    135deg,
+    rgb(4, 117, 155),
+    rgb(180, 6, 64),
+    rgb(49, 68, 122)
+  );
+  width: 40%;
+  margin: auto auto;
+  text-align: center;
+}

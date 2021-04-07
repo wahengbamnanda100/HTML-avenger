@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>J-Spider form</title>
+  </head>
+  <body>
+    <div class="form-body">
+      <fieldset class="form-border">
+        <fieldset class="fieldset">
+          <h3>General details (fill this form in UPPERCASE ONLY)</h3>
+          <table width="100%" colspacing="30px">
+            <tr>
+              <td>
+                <label class="long-label">Full Name:</label>
+              </td>
+              <td class="space"><input type="text" class="long-input" /></td>
+            </tr>
+            <tr>
+              <td>
+                <label class="long-label">Gender</label>
+              </td>
+              <td class="space">
+                <div class="secondDiv">
+                  <input type="radio" name="gender1" value="Male" />Male
+                  <input type="radio" name="gender1" value="Female" />Female
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label class="long-label">Date of Birth</label>
+              </td>
+              <td class="space">
+                <div class="secondDiv">
+                  <div class="dob">
+                    <input type="number" max="1" class="shot-input" />
+                    <input type="number" max="1" class="shot-input" />
+                  </div>
+                  <div class="dob">
+                    <input type="number" max="1" class="shot-input" />
+                    <input type="number" max="1" class="shot-input" />
+                  </div>
+                  <div class="dob">
+                    <input type="number" max="1" class="shot-input" />
+                    <input type="number" max="1" class="shot-input" />
+                    <input type="number" max="1" class="shot-input" />
+                    <input type="number" max="1" class="shot-input" />
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label class="long-label">Mobile No.</label>
+              </td>
+              <td class="space">
+                <div class="secondDiv">
+                  <label>+91</label>
+                  <input type="number" max="1" class="shot-input" />
+                  <input type="number" max="1" class="shot-input" />
+                  <input type="number" max="1" class="shot-input" />
+                  <input type="number" max="1" class="shot-input" />
+                  <input type="number" max="1" class="shot-input" />
+                  <input type="number" max="1" class="shot-input" />
+                  <input type="number" max="1" class="shot-input" />
+                  <input type="number" max="1" class="shot-input" />
+                  <input type="number" max="1" class="shot-input" />
+                  <input type="number" max="1" class="shot-input" />
+                  <input type="number" max="1" class="shot-input" />
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><label class="long-label">Mobile No.(Repeat)</label></td>
+              <td class="space">
+                <div class="secondDiv">
+                  <label>+91</label>
+                  <input type="number" max="1" class="shot-input" />
+                  <input type="number" max="1" class="shot-input" />
+                  <input type="number" max="1" class="shot-input" />
+                  <input type="number" max="1" class="shot-input" />
+                  <input type="number" max="1" class="shot-input" />
+                  <input type="number" max="1" class="shot-input" />
+                  <input type="number" max="1" class="shot-input" />
+                  <input type="number" max="1" class="shot-input" />
+                  <input type="number" max="1" class="shot-input" />
+                  <input type="number" max="1" class="shot-input" />
+                  <input type="number" max="1" class="shot-input" />
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><label class="long-label">Email ID: (UPPERCASE)</label></td>
+              <td class="space">
+                <div><input type="text" class="long-input" /></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label class="long-label">Email ID: (Repeat)</label>
+              </td>
+              <td class="space">
+                <div><input type="text" class="long-input" /></div>
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+
+        <h3>Education details</h3>
+
+        <fieldset class="fieldset">
+          <div class="flex-row">
+            <label>10th ---</label>
+            <div class="space">
+              <input type="radio" name="board" />SSLC (State board)
+              <input type="radio" name="board" />CBSE
+              <input type="radio" name="board" />ICSE
+              <input type="radio" name="board" />IGCSE
+            </div>
+          </div>
+          <div class="flex-line">
+            <label>Year of pass out:</label>
+            <input
+              type="number"
+              class="mid-long-input"
+              style="margin-left: 20px"
+            />
+            <label style="margin-left: 20px">Aggregate %:</label>
+            <input
+              type="number"
+              class="mid-long-input"
+              style="margin-left: 20px"
+            />
+          </div>
+          <div class="table">
+            <table>
+              <tr>
+                <td>PUC/12th:</td>
+                <td>
+                  Diploma: <input type="radio" name="diploma" />Regular
+                  <input type="radio" name="diploma" />Correspondence
+                </td>
+              </tr>
+              <tr>
+                <td>Aggregate %: <input type="text" class="empty-input" /></td>
+                <td>
+                  Aggregate %(All Sem):
+                  <input type="text" class="empty-input" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Year of pass-out: <input type="text" class="empty-input" />
+                </td>
+                <td>
+                  Year of pass-out:
+                  <input type="text" class="empty-input" />
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  College Name:
+                  <input type="text" class="empty-input" />
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <div class="flex-line">
+                    <label>Diploma:</label>
+                    <input
+                      type="radio"
+                      name="diploma"
+                      id=""
+                      style="margin-left: 10px"
+                    />CSc <input type="radio" name="diploma" id="" />IT
+                    <input
+                      type="radio"
+                      name="diploma"
+                      id=""
+                      style="margin-left: 10px"
+                    />IS
+                    <input
+                      type="radio"
+                      name="diploma"
+                      id=""
+                      style="margin-left: 10px"
+                    />EEE
+                    <input
+                      type="radio"
+                      name="diploma"
+                      id=""
+                      style="margin-left: 10px"
+                    />EC
+                    <input
+                      type="radio"
+                      name="diploma"
+                      id=""
+                      style="margin-left: 10px"
+                    />Mech
+                    <input
+                      type="radio"
+                      name="diploma"
+                      id=""
+                      style="margin-left: 10px"
+                    />Mech
+                    <input
+                      type="radio"
+                      name="diploma"
+                      id=""
+                      style="margin-left: 10px"
+                    />Civil <label style="margin-left: 10px">Others:</label
+                    ><input
+                      type="text"
+                      class="mid-long-input"
+                      style="margin-left: 10px"
+                    />
+                  </div>
+                </td>
+              </tr>
+            </table>
+            <div class="lower">
+              <label>if ITI, ITI Year of pass-out:</label>
+              <input type="text" class="mid-long-input" />
+              <label>%:</label>
+              <input type="text" class="mid-long-input" />
+            </div>
+          </div>
+        </fieldset>
+
+        <div class="flex-line" style="text-decoration: underline">
+          <label style="margin-right: 20px">Degree:</label>
+          <input type="radio" name="degree" id="" />Regualar
+          <input type="radio" name="degree" id="" />Correspondence
+        </div>
+
+        <fieldset class="fieldset">
+          <div class="flex-row">
+            <label style="margin-right: 10px">Degree:</label>
+            <input
+              type="radio"
+              name="Course"
+              id=""
+              style="margin-left: 20px"
+            />BE
+            <input
+              type="radio"
+              name="Course"
+              id=""
+              style="margin-left: 20px"
+            />B.Tech
+            <input
+              type="radio"
+              name="Course"
+              id=""
+              style="margin-left: 20px"
+            />B.Sc
+            <input
+              type="radio"
+              name="Course"
+              id=""
+              style="margin-left: 20px"
+            />BCA
+            <input
+              type="radio"
+              name="Course"
+              id=""
+              style="margin-left: 20px"
+            />B.Com
+            <input
+              type="radio"
+              name="Course"
+              id=""
+              style="margin-left: 20px"
+            />BBM
+            <input
+              type="radio"
+              name="Course"
+              id=""
+              style="margin-left: 20px"
+            />BA
+            <input
+              type="radio"
+              name="Course"
+              id=""
+              style="margin-left: 20px"
+            />C.Sc
+            <input
+              type="radio"
+              name="Course"
+              id=""
+              style="margin-left: 20px"
+            />IT
+            <input
+              type="radio"
+              name="Course"
+              id=""
+              style="margin-left: 20px"
+            />Inf.Sc
+            <input
+              type="radio"
+              name="Course"
+              id=""
+              style="margin-left: 20px"
+            />Electrical
+            <input
+              type="radio"
+              name="Course"
+              id=""
+              style="margin-left: 20px"
+            />EC
+            <input
+              type="radio"
+              name="Course"
+              id=""
+              style="margin-left: 20px"
+            />Mech
+            <input
+              type="radio"
+              name="Course"
+              id=""
+              style="margin-left: 20px"
+            />Civil
+            <input
+              type="radio"
+              name="Course"
+              id=""
+              style="margin-left: 20px"
+            />AE
+            <input
+              type="radio"
+              name="Course"
+              id=""
+              style="margin-left: 20px"
+            />Bio-Med
+            <input
+              type="radio"
+              name="Course"
+              id=""
+              style="margin-left: 20px"
+            />Bio-Tech
+            <input
+              type="radio"
+              name="Course"
+              id=""
+              style="margin-left: 20px"
+            />Chemical
+            <input
+              type="radio"
+              name="Course"
+              id=""
+              style="margin-left: 20px"
+            />Envi
+            <input
+              type="radio"
+              name="Course"
+              id=""
+              style="margin-left: 20px"
+            />Telecom
+            <input
+              type="radio"
+              name="Course"
+              id=""
+              style="margin-left: 20px"
+            />Instrumental
+          </div>
+          <div class="flex-line">
+            <label>Others:</label>
+            <input type="text" class="mid-input" />
+            <label>YOP:</label>
+            <input type="text" class="mid-input" />
+            <label>Percentage(1 to 8 Sem):</label>
+            <input type="text" class="mid-input" />
+          </div>
+          <div class="flex-line">
+            <label>University:</label>
+            <input type="text" class="mid-long-input" />
+            <label>University Roll (USN) No:</label>
+            <input type="text" class="mid-long-input" />
+          </div>
+          <div class="flex-line">
+            <label>College Name:</label>
+            <input type="text" class="mid-long-input" />
+            <label>Place:</label>
+            <input type="text" class="mid-input" />
+          </div>
+          <div class="flex-line">
+            <label>Did you Fail and clear the subject in degree:</label>
+            <input type="radio" name="fail" id="" />Yes
+            <input type="radio" name="fail" id="" />No
+          </div>
+          <div class="flex-line">
+            <label>Have any existing backlog:</label>
+            <input type="radio" name="back" id="" />Yes
+            <input type="radio" name="back" id="" />No
+            <label>Got any gap in degree:</label>
+            <input type="radio" name="gap" id="" />Yes
+            <input type="radio" name="gap" id="" />No
+          </div>
+        </fieldset>
+
+        <div class="flex-line">
+          <label style="text-decoration: underline"
+            >Master degree or Post graduation:</label
+          >
+          <input type="radio" name="master" id="" />Regualar
+          <input type="radio" name="master" id="" />Correspondence
+        </div>
+
+        <fieldset class="fieldset">
+          <div class="flex-row">
+            <input type="radio" name="Course1" id="" />M.Tech
+            <input type="radio" name="Course1" id="" />MCA
+            <input type="radio" name="Course1" id="" />M.Sc
+            <input type="radio" name="Course1" id="" />MBA
+            <input type="radio" name="Course1" id="" />MS
+          </div>
+          <div class="flex-row">
+            <label>Stream:</label>
+            <input type="radio" name="Stream" id="" />C.Sc
+            <input type="radio" name="Stream" id="" />IT
+            <input type="radio" name="Stream" id="" />IS
+            <input type="radio" name="Stream" id="" />EEE
+            <input type="radio" name="Stream" id="" />EC
+            <input type="radio" name="Stream" id="" />Mech
+            <input type="radio" name="Stream" id="" />Civil
+            <label>Others:</label>
+            <input type="text" class="mid-input" />
+          </div>
+          <div class="flex-line">
+            <label>Aggregate % if CGPA:</label>
+            <input type="number" class="mid-input" />
+            <label>Percentage:</label>
+            <input type="number" class="mid-input" />
+            <label>year of pas-out:</label>
+            <input type="number" class="mid-input" />
+          </div>
+          <div class="flex-line">
+            <label>University Name:</label>
+            <input type="text" class="mid-long-input" />
+            <label>University Regidtration No:</label>
+            <input type="text" class="mid-long-input" />
+          </div>
+          <div class="flex-line">
+            <label>College Name:</label>
+            <input type="text" class="mid-long-input" />
+            <label>Place:</label>
+            <input type="text" class="mid-input" />
+          </div>
+          <div class="flex-line">
+            <label>Did you Fail and clear the subject in degree:</label>
+            <input type="radio" name="fail" id="" />Yes
+            <input type="radio" name="fail" id="" />No
+          </div>
+          <div class="flex-line">
+            <label>Have any existing backlog:</label>
+            <input type="radio" name="back" id="" />Yes
+            <input type="radio" name="back" id="" />No
+            <label>Got any gap in degree:</label>
+            <input type="radio" name="gap" id="" />Yes
+            <input type="radio" name="gap" id="" />No
+          </div>
+        </fieldset>
+
+        <fieldset class="fieldset">
+          <div class="flex-line">
+            <label>Certifications:</label>
+            <input type="text" class="mid-long-input" />
+            <label>(Only International certified S/W Certifications)</label>
+          </div>
+          <div class="flex-line">
+            <label>Ready to relocate to work:</label>
+            <input type="radio" name="work" id="" />Yes
+            <input type="radio" name="work" id="" />No
+          </div>
+          <table>
+            <tr>
+              <td>
+                <label>If yes, preferred location:</label>
+              </td>
+              <td>
+                <div class="flex-line">
+                  <input type="radio" name="locate" id="" />Bangalore
+                  <input type="radio" name="locate" id="" />Chennai
+                  <input type="radio" name="locate" id="" />Hydrabad
+                  <input type="radio" name="locate" id="" />Kerela
+                  <input type="radio" name="locate" id="" />
+                  Pune
+                  <input type="radio" name="locate" id="" />Mumbai
+                  <input type="radio" name="locate" id="" />Delhi
+                  <input type="radio" name="locate" id="" />Gandhinagar
+                  <label>others:</label>
+                  <input type="text" class="mid-input" />
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><label>Do you have Passport?</label></td>
+              <td>
+                <input type="radio" name="passport" id="" />Yes
+                <input type="radio" name="passport" id="" />No
+              </td>
+            </tr>
+            <tr>
+              <td><label>Do you have Pan Card?</label></td>
+              <td>
+                <input type="radio" name="pan" id="" />Yes
+                <input type="radio" name="pan" id="" />No
+              </td>
+            </tr>
+            <tr>
+              <td><label>Do you have Adaar Card?</label></td>
+              <td>
+                <input type="radio" name="card" id="" />Yes
+                <input type="radio" name="card" id="" />No
+                <label>Adar No.</label>
+                <input type="text" class="mid-long-input" />
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+
+        <h3>Address</h3>
+
+        <fieldset class="fieldset">
+          <div class="flex-line">
+            <label>Father/Spouse Name:</label>
+            <input type="text" class="long-input" style="margin-left: 20px" />
+          </div>
+          <div class="flex-line">
+            <label>House No:</label>
+            <input type="text" class="mid-input" style="margin-left: 20px" />
+            <label style="margin-left: 20px">Street No:</label>
+            <input type="text" class="mid-input" style="margin-left: 20px" />
+          </div>
+          <div class="flex-line">
+            <label>Area Name:</label>
+            <input type="text" class="mid-input" style="margin-left: 20px" />
+            <label style="margin-left: 20px">Pin Code:</label>
+            <input type="number" class="mid-input" style="margin-left: 20px" />
+          </div>
+          <div class="flex-line">
+            <label>City:</label>
+            <input type="text" class="mid-input" style="margin-left: 20px" />
+            <label style="margin-left: 20px">State:</label>
+            <input type="text" class="mid-input" style="margin-left: 20px" />
+          </div>
+        </fieldset>
+      </fieldset>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS LOGIN FORM</title>
+    <link rel="stylesheet" href="../../fa/font/css/all.css" />
+    <style>
+      body {
+        background-image: url("https://image.shutterstock.com/image-photo/nature-background-table-wood-product-260nw-285662423.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+      }
+      #login {
+        background: linear-gradient(45deg, orange, blue, green);
+        width: 300px;
+        margin: 100px auto;
+        text-align: center;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px blue;
+      }
+      .form-group input[type="text"],
+      .form-group input[type="password"],
+      select {
+        margin-top: 25px;
+        border: none;
+        outline: none;
+        /*border-radius:10px;*/
+        background: none;
+        border-bottom: 2px solid white;
+        color: white;
+      }
+      select {
+        width: 160px;
+        color: white;
+      }
+      select option {
+        background-color: blue;
+      }
+      ::placeholder {
+        color: white;
+      }
+      input[type="submit"] {
+        width: 160px;
+        margin-top: 20px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        padding: 2px;
+        background: linear-gradient(135deg, orange, blue, green);
+        color: white;
+      }
+      input[type="submit"]:hover {
+        box-shadow: 0 0 10px white;
+        cursor: pointer;
+      }
+      .fas {
+        color: white;
+        font-size: 70px;
+        margin-top: -60px;
+        border: 10px solid blue;
+        border-radius: 50%;
+        box-shadow: 0 0 10px red;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="login">
+      <div id="icon">
+        <i class="fas fa-user-circle"></i>
+      </div>
+      <form>
+        <div class="form-group">
+          <input type="text" placeholder="Enter UserName" />
+        </div>
+        <div class="form-group">
+          <input type="text" placeholder="Enter Email" />
+        </div>
+        <div class="form-group">
+          <input type="password" placeholder="Enter Password" />
+        </div>
+        <div class="form-group">
+          <input type="password" placeholder="Enter Confirm Password" />
+        </div>
+        <div class="form-group">
+          <select>
+            <option>Select Designation</option>
+            <option>Team Lead</option>
+            <option>Manager</option>
+            <option>S/W Engg..</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <input type="submit" placeholder="Enter Password" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,361 @@
+div {
+  margin: -8px;
+  padding: 8px;
+}
+
+.ball-background {
+  background-color: rgb(151, 156, 206);
+  width: 100%;
+  height: 100vh;
+}
+
+.ball {
+  background-color: rgb(179, 1, 1);
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  margin: 0px;
+  top: 0px;
+  left: 0px;
+  border-radius: 50%;
+  box-shadow: inset 5px 5px 10px rgba(212, 184, 184, 0.4),
+    5px 5px 10px rgba(0, 0, 0, 0.4);
+  transition: all 1s linear;
+  animation: bounch-ball 5s linear 0s infinite alternate;
+}
+
+@keyframes bounch-ball {
+  0% {
+    top: 0px;
+    left: 0px;
+  }
+
+  8.33% {
+    top: 500px;
+    left: 200px;
+  }
+
+  16.66% {
+    top: 50px;
+    left: 400px;
+  }
+
+  24.99% {
+    top: 500px;
+    left: 600px;
+  }
+  33.32% {
+    top: 50px;
+    left: 800px;
+  }
+  41.65% {
+    top: 500px;
+    left: 1000px;
+  }
+  49.98% {
+    top: 0px;
+    left: 1200px;
+  }
+
+  58.31% {
+    top: 500px;
+    left: 1000px;
+  }
+  66.64% {
+    top: 50px;
+    left: 800px;
+  }
+  74.97% {
+    top: 500px;
+    left: 600px;
+  }
+  83.3% {
+    top: 50px;
+    left: 400px;
+  }
+  85.68% {
+    top: 500px;
+    left: 200px;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+  }
+}
+
+.football-background {
+  background-color: rgb(149, 221, 194);
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.football {
+  background-color: rgb(5, 99, 116);
+  box-shadow: inset 5px 5px 10px rgba(212, 184, 184, 0.4),
+    5px 5px 10px rgba(0, 0, 0, 0.4);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: absolute;
+  margin: 8px;
+  animation: football 5s ease-in 0s infinite;
+}
+
+@keyframes football {
+  0% {
+    opacity: 1;
+    top: 0px;
+    left: 0px;
+  }
+  10% {
+    opacity: 1;
+    top: 0px;
+    left: 0px;
+  }
+  20% {
+    top: 700px;
+    left: 200px;
+  }
+  40% {
+    top: 200px;
+    left: 300px;
+  }
+  60% {
+    top: 400px;
+    left: 350px;
+  }
+  80%,
+  100% {
+    top: 400px;
+    left: 500px;
+    transform: translateX(1500px);
+  }
+  /* 
+  100% {
+    opacity: 0;
+    top: 0px;
+    left: 0px;
+  } */
+}
+
+.goal {
+  position: absolute;
+  border: 10px solid black;
+  width: 400px;
+  height: 400px;
+  top: 0px;
+  right: -200px;
+  margin-top: 200px;
+}
+
+.spinner1-background {
+  margin-top: 10px;
+  background-color: rgb(5, 38, 59);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.circel {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  /* background-color: cyan; */
+  box-shadow: inset 5px 5px 10px rgba(212, 184, 184, 0.4),
+    5px 5px 10px rgba(0, 0, 0, 0.4);
+  margin: 300px 30px;
+  transition: all 1s ease-in;
+  animation: ball 2s ease-in 0s infinite;
+}
+.square {
+  width: 300px;
+  height: 100px;
+  box-shadow: inset 5px 5px 10px rgba(212, 184, 184, 0.4),
+    5px 5px 10px rgba(0, 0, 0, 0.4);
+  margin: 300px 400px;
+  transition: all 1s ease-in;
+  animation: circel 2s ease-in 0s infinite;
+}
+
+@keyframes ball {
+  0%,
+  100% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(650px);
+  }
+}
+
+@keyframes circel {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(150px);
+  }
+}
+
+.spinner2-background {
+  margin-top: 10px;
+  background-color: rgb(59, 5, 35);
+  width: 100%;
+  height: 100vh;
+}
+
+.footer {
+  box-shadow: inset 5px 5px 10px rgba(212, 184, 184, 0.4),
+    5px 5px 10px rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 200px;
+  margin-top: 530px;
+  display: flex;
+}
+.news1 {
+  padding: 10px;
+  color: white;
+  font-size: 24px;
+  margin: 30px 20px;
+  transition: all 1s ease-in;
+  animation: news1 5s ease-in 0s infinite;
+}
+.news2 {
+  padding: 10px;
+  color: turquoise;
+  font-size: 24px;
+  margin: 70px 20px;
+  transition: all 1s ease-in;
+  animation: news2 5s ease-in 0s infinite;
+}
+
+@keyframes news1 {
+  0%,
+  100% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(500px);
+  }
+}
+
+@keyframes news2 {
+  0%,
+  100% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-500px);
+  }
+}
+
+.spinner3-background {
+  margin-top: 10px;
+  background-color: rgb(6, 73, 42);
+  width: 100%;
+  height: 100vh;
+}
+
+.cover {
+  margin: 300px 500px;
+  display: flex;
+}
+
+.cover div {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: whitesmoke;
+  margin: 2px;
+  animation: popUp 1s infinite;
+}
+
+@keyframes popUp {
+  0%,
+  100% {
+    transform: scale(0.4, 0.4);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+
+.cover div:first-child {
+  animation-delay: 0.1s;
+}
+
+.cover div:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.cover div:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.cover div:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+.cover div:nth-child(5) {
+  animation-delay: 0.5s;
+}
+
+.cover div:last-child {
+  animation-delay: 0.6s;
+}
+
+.spinner4-background {
+  margin-top: 10px;
+  background-color: rgb(29, 7, 80);
+  width: 100%;
+  height: 100vh;
+}
+
+.cover1 {
+  margin: 300px 600px;
+  display: flex;
+}
+
+.cover1 div {
+  width: 8px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  margin: 12px;
+  animation: popUp 1s infinite;
+}
+
+.cover1 div:first-child {
+  animation-delay: 0.1s;
+  background-color: teal;
+}
+.cover1 div:nth-child(2) {
+  animation-delay: 0.8s;
+  background-color: rgb(141, 17, 104);
+}
+.cover1 div:nth-child(3) {
+  animation-delay: 0.2s;
+  background-color: rgb(133, 32, 66);
+}
+.cover1 div:nth-child(4) {
+  animation-delay: 0.7s;
+  background-color: rgb(3, 109, 128);
+}
+.cover1 div:nth-child(5) {
+  animation-delay: 0.3s;
+  background-color: rgb(184, 9, 175);
+}
+.cover1 div:nth-child(6) {
+  animation-delay: 0.6s;
+  background-color: rgb(31, 143, 50);
+}
+.cover1 div:nth-child(7) {
+  animation-delay: 0.4s;
+  background-color: rgb(231, 227, 0);
+}
+.cover1 div:last-child {
+  animation-delay: 0.5s;
+  background-color: rgb(255, 0, 0);
+}
